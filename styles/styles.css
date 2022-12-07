@@ -1,0 +1,99 @@
+/* reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+/* body and shared styles */
+body,
+form,
+.guess-count-area {
+  display: flex;
+}
+
+body, form {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+body {
+  background-color: #6C80C8;
+  height: 100vh; 
+  gap: 2rem;
+}
+
+label, 
+p, 
+button, 
+.guess-btn {
+  font-size: 3rem;
+}
+
+/* main content styles */
+h1 {
+  font-size: 6rem;
+  color: gold;
+}
+
+form {
+  width: 50%;
+  gap: 1rem;
+}
+
+#guessed-number {
+  width: 13rem;
+  height: 10rem;
+  border-radius: 2rem;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 6rem;
+}
+#guessed-number::-webkit-inner-spin-button,
+#guessed-number::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.guess-btn,
+.new-game-btn {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: gold;
+}
+.guess-btn:hover,
+.new-game-btn:hover {
+  background-color: white;
+}
+.guess-ntn:active,
+.new-game-btn:active {
+  background-color: gold;
+}
+
+.guess-count-area {
+  gap: 2rem;
+  color: white;
+  text-align: center;
+}
+label {
+  color: white;
+}
+.guess-count {
+  font-weight: 700;
+  font-size: 6rem;
+  padding: 2rem;
+  border: 0.3rem solid white;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  width: 13rem;
+  height: 11rem;
+}
+
+
+
+
+
