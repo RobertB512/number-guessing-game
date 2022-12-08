@@ -6,20 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./styles/styles.css">
-  <script src="./scripts/script.js"></script>
   <title>Number guessing game</title>
 </head>
 <body>
   <h1>Guess my number</h1>
 
   <!-- form to guess the number -->
-  <form class="number-form" action="">
+  <section class="number-entry-area">
     <label for="guessed-number">Enter a number</label>
     <input id="guessed-number" type="number" min="1" required>
-    <input class="guess-btn" type="submit" value="Guess">
-  </form>
-  <button class="new-game-btn">New Game</button>
-  <p class="message"></p>
+    <p class="message"></p>
+    <button class="guess-btn" onclick="guessNumber()">Guess</button>
+  </section>
+  <button class="new-game-btn" onclick="newGame()">New Game</button>
+  
 
   <!-- guess count area -->
   <section class="guess-count-area">
@@ -34,5 +34,11 @@
       <p class="guess-count-lbl">Guesses left</p>
     </div>
   </section>
+
+
+
+  
+  <!-- scripts -->
+  <script src="./scripts/script.js"></script>
 </body>
 </html>

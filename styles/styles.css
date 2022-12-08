@@ -9,12 +9,13 @@
 
 /* body and shared styles */
 body,
-form,
+.number-entry-area,
 .guess-count-area {
   display: flex;
 }
 
-body, form {
+body,
+.number-entry-area {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -28,10 +29,14 @@ body {
   gap: 2rem;
 }
 
+p,
+label {
+  color: white;
+}
+
 label, 
 p, 
-button, 
-.guess-btn {
+button {
   font-size: 3rem;
 }
 
@@ -42,13 +47,12 @@ h1 {
   color: gold;
 }
 
-form {
+.number-entry-area {
   width: 50%;
   gap: 1rem;
 }
 
-#guessed-number,
-form, 
+.number-entry-area, 
 .guess-count-area {
   display: none;
 } 
@@ -66,18 +70,17 @@ form,
   appearance: none;
 }
 
-.guess-btn,
-.new-game-btn {
+button {
   padding: 1rem 1.5rem;
   border: none;
   border-radius: 2rem;
   background-color: gold;
 }
-.guess-btn:hover,
+button:hover,
 .new-game-btn:hover {
   background-color: white;
 }
-.guess-btn:active,
+button:active,
 .new-game-btn:active {
   background-color: gold;
 }
@@ -85,12 +88,9 @@ form,
 
 .guess-count-area {
   gap: 4rem;
-  color: white;
   text-align: center;
 }
-label {
-  color: white;
-}
+
 .guess-count {
   font-weight: 700;
   font-size: 6rem;
