@@ -53,7 +53,7 @@ h1 {
 }
 
 .number-entry-area, 
-.guess-count-area {
+.stats-area {
   display: none;
 } 
 
@@ -86,12 +86,12 @@ button:active,
 }
 
 
-.guess-count-area {
+.stats-area {
   gap: 4rem;
   text-align: center;
 }
 
-.guess-count {
+.stats {
   font-weight: 700;
   font-size: 6rem;
   padding: 2rem;
