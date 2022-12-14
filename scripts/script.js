@@ -21,6 +21,7 @@ function newGame() {
   computerNumber = Math.floor(Math.random() * 100) + 1;
   heading.textContent = "Guess my number";
   numberEntryArea.style.display = "flex";
+  newGameBtn.style.display = "none"
   message.textContent = `Pick a number from 1 to 100`;
   statsArea.style.display = "flex";
   guesses = 10;
@@ -40,6 +41,7 @@ function guessNumber() {
     heading.textContent = "YOU WIN";
     numberEntryArea.style.display = "none";
     statsArea.style.display = "none";
+    newGameBtn.style.display = "block";
     input.value = "";
     message.textContent = "";
     guesses--;
@@ -52,6 +54,7 @@ function guessNumber() {
     heading.textContent = "GAME OVER";
     numberEntryArea.style.display = "none";
     statsArea.style.display = "none";
+    newGameBtn.style.display = "block";
     input.value = "";
     message.textContent = "";
   }
