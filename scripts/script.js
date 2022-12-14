@@ -46,7 +46,7 @@ function guessNumber() {
     message.textContent = "";
     guesses--;
   } else {
-    message.textContent = `${playerNumber} is to hight`;
+    message.textContent = `${playerNumber} is to high`;
     guesses--;
   }
   guessesLeft.textContent = String(guesses);
