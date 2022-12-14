@@ -98,7 +98,7 @@ button:active,
   border: 0.3rem solid white;
   border-radius: 2rem;
   margin-bottom: 1rem;
-  width: 13rem;
+  min-width: 13rem;
   height: 11rem;
 }
 
