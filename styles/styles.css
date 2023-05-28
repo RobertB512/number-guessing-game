@@ -24,15 +24,15 @@ body,
 
 
 body {
-  background-color: #6C80C8;
+  background-color: #55433B;
   height: 100vh; 
   gap: 2rem;
 }
 
-p,
-label {
-  color: white;
+p, label {
+  color: #BDA79E;
 }
+
 
 label, 
 p, 
@@ -44,7 +44,7 @@ button {
 h1 {
   text-align: center;
   font-size: 6rem;
-  color: gold;
+  color: #88C87E;
 }
 
 .number-entry-area {
@@ -58,6 +58,8 @@ h1 {
 } 
 
 #guessed-number {
+  background-color: #BDA79E;
+  color: #0058CC;
   width: 13rem;
   height: 10rem;
   border-radius: 2rem;
@@ -72,17 +74,20 @@ h1 {
 
 button {
   padding: 1rem 1.5rem;
+  font-weight: 700;
   border: none;
   border-radius: 2rem;
-  background-color: gold;
+  color: #55433B;
+  background-color: #FFA17A;
+  text-transform: uppercase;
 }
 button:hover,
 .new-game-btn:hover {
-  background-color: white;
+  background-color: #FFE9E5;
 }
 button:active,
 .new-game-btn:active {
-  background-color: gold;
+  background-color: #FFA17A;
 }
 
 
@@ -91,18 +96,15 @@ button:active,
   text-align: center;
 }
 
+
 .stats {
   font-weight: 700;
   font-size: 6rem;
   padding: 2rem;
-  border: 0.3rem solid white;
+  color: #BDA79E;
+  border: 0.3rem solid #BDA79E;
   border-radius: 2rem;
   margin-bottom: 1rem;
   min-width: 13rem;
   height: 11rem;
 }
-
-
-
-
-
