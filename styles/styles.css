@@ -62,9 +62,9 @@ h1 {
   color: #0058CC;
   width: 13rem;
   height: 10rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   border: none;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   font-size: 6rem;
 }
 #guessed-number::-webkit-inner-spin-button,
